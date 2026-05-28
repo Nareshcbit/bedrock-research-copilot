@@ -1,0 +1,11 @@
+# Python 3.12. Pin exact versions from your lockfile before first deploy.
+# TODO: replace == TODO with the resolved versions you tested against.
+
+boto3==1.43.16
+langchain-aws==1.5.0
+pytest==9.0.3
+
+# Suggested companions (uncomment + pin when needed):
+# python-dotenv==TODO
+# pydantic==TODO
+# tenacity==TODO   # retries / backoff for Bedrock rate limits
